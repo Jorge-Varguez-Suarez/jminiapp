@@ -7,13 +7,12 @@ sidebar_position: 2
 A simple notes management application demonstrating persistent state and JSON storage.
 
 **Features:**
+
 - Add new notes with text content
 - List all saved notes
 - Remove notes by index
 - Automatic JSON persistence
 - Interactive menu system
-
-**Source Code:** [examples/notes-app](https://github.com/jminiapp/jminiapp/tree/main/examples/notes-app)
 
 ### Key Concepts Demonstrated
 
@@ -50,6 +49,7 @@ notes-app/
 ```
 
 **pom.xml:**
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -134,6 +134,7 @@ notes-app/
 #### 2. Create the Note Model
 
 **Note.java:**
+
 ```java
 package com.jminiapp.examples.notesapp.model;
 
@@ -160,6 +161,7 @@ public class Note {
 #### 3. Create the State Manager
 
 **NotesState.java:**
+
 ```java
 package com.jminiapp.examples.notesapp.model;
 
@@ -191,6 +193,7 @@ public class NotesState {
 #### 4. Implement the JSON Adapter
 
 **NotesJsonAdapter.java:**
+
 ```java
 package com.jminiapp.examples.notesapp.adapters;
 
@@ -234,6 +237,7 @@ public class NotesJsonAdapter {
 #### 5. Build the Main Application
 
 **NotesApp.java:**
+
 ```java
 package com.jminiapp.examples.notesapp;
 
@@ -371,3 +375,8 @@ The `notes.json` file stores all notes:
 ```
 
 This example demonstrates a practical application with persistent storage, showing how to build a simple CRUD app with JSON serialization using plain Java and Gson.
+
+## Author
+
+Jorge Gabriel Várguez Suárez
+Notes App Example – 2025
